@@ -1,0 +1,39 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+.city{
+    padding: 10px 60px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    max-width: 1200px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+.button{
+    padding: 10px 10px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    max-width: 1200px;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin-left: -5%
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1%;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-left: 30%;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: azure;
+}
